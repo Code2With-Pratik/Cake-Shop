@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---- title -->
+    <title>CakeZone | Cake Shop Website</title>
+    <!---- customer css file -->
+    <link rel="stylesheet" href="style.css">
+    <!---- boxicon cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+        <!----- top header section start ----->
+        <div class="top-header">
+            <div class="col-1">
+                <i class='bx bx-envelope'></i>
+                <div class="email">
+                    <h4>Email us</h4>
+                    <span>info@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="logo">
+                    <i class='bx bxs-cake' ></i>
+                    <h2>cakezone</h2>
+                </div>
+            </div>
+
+            <div class="col-1">
+                <i class='bx bx-mobile-alt' ></i>
+                <div class="contact">
+                    <h4>call us</h4>
+                    <span>+012 345 6789</span>
+                </div>
+            </div>
+        </div>
+
+        <!----- navbar section start ----->
+        <header class="header">
+            <div class="logo_two">
+                <i class='bx bxs-cake' ></i>
+                <h2>cakezone</h2>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Home" class="active">home</a></li>
+                    <li><a href="#AboutUs">about us</a></li>
+                    <li><a href="#Menu">menu & pricing</a></li>
+                    <li><a href="#Services">Services</i></a></li>
+                    <li><a href="#Contact">contact us</a></li>
+                </ul>
+            </nav>
+            <i class="bx bx-menu" id="menuBar"></i>
+        </header>
+
+        <!----- home page section start ----->
+        <section id="Home" class="home">
+            <div class="content">
+                <h4>Super Crispy</h4>
+                <h1>cakezone</h1>
+                <h3>the best cake in london</h3>
+
+                <div class="others">
+                    <div class="button">
+                        <button>read more</button>
+                    </div>
+    
+                    <div class="player">
+                        <i class='bx bx-play-circle' ></i>
+                        <span>play video</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----- about us section start ----->
+        <section id="AboutUs" class="about section">
+            <h5>About Us</h5>
+            <h1>welcome to cakezone</h1>
+
+            <div class="about-row">
+                <div class="col-1">
+                    <img src="./img/about.jpg" alt="">
+                </div>
+                <div class="col-2">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nam ut omnis.</h4>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo modi, odit repellat reiciendis velit quia provident non nostrum ducimus cupiditate error incidunt. Quo alias minus illo sapiente vitae reprehenderit? Numquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo nisi molestiae consequatur beatae, saepe distinctio.</p>
+
+                    <div class="details">
+                        <div class="col-3">
+                            <img src="./img/i 1.JPG" alt="">
+                            <h3>100% healthy</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, quam!</p>
+                        </div>
+                        <div class="col-3">
+                            <img src="./img/i 2.JPG" alt="">
+                            <h3>award winning</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, quam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!--- number section start -->
+       <section class="number section">
+            <div class="number-row">
+               <div class="num-col">
+                    <div class="icon">
+                        <i class='bx bxs-star'></i>
+                    </div>
+                    <div class="name">
+                        <h4>our experience</h4>
+                        <span class="num" data-value="31">0</span>
+                        <span> + years</span>
+                    </div>
+               </div>
+               <div class="num-col">
+                    <div class="icon">
+                        <i class='bx bxs-user-plus'></i>
+                    </div>
+                    <div class="name">
+                        <h4>cake specialist</h4>
+                        <span class="num" data-value="241">0</span>
+                    </div>
+                </div>
+                <div class="num-col">
+                    <div class="icon">
+                        <i class='bx bx-check'></i>
+                    </div>
+                    <div class="name">
+                        <h4>completed Orders</h4>
+                        <span class="num" data-value="2745">0</span>
+                    </div>
+               </div>
+               <div class="num-col">
+                    <div class="icon">
+                        <i class='bx bxs-group'></i>
+                    </div>
+                    <div class="name">
+                        <h4>happy client</h4>
+                        <span class="num" data-value="1155">0</span>
+                        <span>+</span>
+                    </div>
+                </div>
+            </div>
+       </section>
+
+        <!--- menu section start -->
+        <section id="Menu" class="menu section">
+            <h5>menu & pricing</h5>
+            <h1>explore our cakes</h1>
+
+            <div class="menu-row">
+                <div class="title">
+                    <div class="col-1">
+                        <button class="btn active" >birthday</button>
+                        <button class="btn">wedding</button>
+                        <button class="btn" >custom</button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="items birthday">
+                        <div class="image">
+                            <img src="./img/img1.png" alt="">
+                            <span>$99.00</span>
+                        </div>
+                        <div class="info">
+                            <h4>birthday cake</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, animi.</p>
+                        </div>
+                    </div>
+                    <div class="items birthday">
+                        <div class="image">
+                            <img src="./img/img2.png" alt="">
+                            <span>$99.00</span>
+                        </div>
+                        <div class="info">
+                            <h4>birthday cake</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, animi.</p>
+                        </div>
+                    </div>
+                    <div class="items birthday">
+                        <div class="image">
+                            <img src="./img/img3.png" alt="">
+                            <span>$99.00</span>
+                        </div>
+                        <div class="info">
+                            <h4>birthday cake</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, animi.</p>
+                        </div>
+                    </div>
+                    <div class="items birthday">
+                        <div class="image">
+                            <img src="./img/img4.png" alt="">
+                            <span>$99.00</span>
+                        </div>
+                        <div class="info">
+                            <h4>birthday cake</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, animi.</p>
+                        </div>
+                    </div>
+                    <div class="items birthday">
+                        <div class="image">
+                            <img src="./img/img5.png" alt="">
+                            <span>$99.00</span>
+                        </div>
+                        <div class="info">
+                            <h4>birthday cake</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, animi.</p>
+                        </div>
+                    </div>
+                    <div class="items birthday">
+                        <div class="image">
+                            <img src="./img/img1.png" alt="">
+                            <span>$99.00</span>
+                        </div>
+                        <div class="info">
+                            <h4>birthday cake</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, animi.</p>
+                        </div>
+                    </div>          
+
+                </div>
+            </div>
+        </section>
+
+        <!--- discount section start -->
+        <section class="discount">
+            <div class="disc-row">
+                <div class="disc-col">
+                    <div class="details">
+                        <h4>birthday cake</h4>
+                        <p>Obsessive doesn’t even begin to describe my love for cake. I’ll even fight little children if I have to.</p>
+
+                        <a href="#">read more <i class="bx bx-arrow-to-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="disc-col">
+                    <div class="details">
+                        <h4>wedding cake</h4>
+                        <p>What’s more satisfying than baking a cake? Composing a flawless cake infused with love, care, consideration, and just the right touch of heat! Let’s dive deep a...</p>
+    
+                        <a href="#">read more <i class="bx bx-arrow-to-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="disc-col">
+                    <div class="details">
+                        <h4>custom cake</h4>
+                        <p>Enjoy the spirit of summer—indulging in a fresh, delicious summer cake could help alleviate some of your summertime woes! Get ready to taste the sunshine with o...</p>
+
+                        <a href="#">read more <i class="bx bx-arrow-to-right"></i></a>
+                    </div>
+                </div> 
+            </div>
+            <div class="summer">
+                <h2>30% discount for this summer</h2>
+                <button>order now</button>
+            </div>
+        </section>
+
+        <!--- members section start -->
+        <section id="Services" class="member section">
+            <h5>team members</h5>
+            <h1>our master chefs</h1>
+
+            <div class="member-row">
+                <div class="member-col">
+                    <div class="image">
+                        <img src="./img/team-1.jpg" alt="">
+                    </div>
+                    <div class="social">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-linkedin"></i>
+                    </div>
+                    <div class="details">
+                        <h3>John Doe</h3>
+                        <p>designation</p>
+                    </div>
+                </div>
+                <div class="member-col">
+                    <div class="image">
+                        <img src="./img/team-2.jpg" alt="">          
+                    </div>
+                    <div class="social">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-linkedin"></i>
+                    </div>
+                    <div class="details">
+                        <h3>John Doe</h3>
+                        <p>designation</p>
+                    </div>
+                </div>
+                <div class="member-col">
+                    <div class="image">
+                        <img src="./img/team-3.jpg" alt="">
+                    </div>
+                    <div class="social">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-linkedin"></i>
+                    </div>
+                    <div class="details">
+                        <h3>John Doe</h3>
+                        <p>designation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!--- special section start -->
+        <section class="special section">
+            <h5>special kombo pack</h5>
+            <h1 class="text">super crispy cakes</h1>
+
+            <div class="special-row">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi quis ea dolorem ipsam laudantium consequuntur esse inventore, commodi qui nostrum aliquid omnis voluptatibus illum doloremque obcaecati cupiditate provident quaerat? Maxime.</p>
+
+                <div class="buttons">
+                    <div class="more">
+                        <button class="shop">Shop Now</button>
+                    </div>
+                    <button class="read">Read More</button>
+                </div>
+            </div>
+        </section>
+
+        <!--- footer section start -->
+        <section id="Contact" class="footer">
+            <div class="footer-row">
+                <div class="footer-col_one">
+                    <div class="box">
+                        <div class="icon">
+                            <i class='bx bxs-cake' ></i>
+                            <h2>cakezone</h2>
+                        </div>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto magni eos maxime error illo corrupti, mollitia ex eum facilis? Dolores, assumenda numquam fugit nam ipsa possimus totam in odio eaque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut amet est iure quae voluptatem blanditiis, esse nesciunt nam repellendus ipsam!</p>
+                    </div>
+                </div>
+                <div class="footer-col_two">
+                    <div class="col-1">
+                        <h5>get in touch</h5>
+                        <span><i class="bx bx-location-plus"></i>123 Street, New York, USA</span>
+                        <span><i class="bx bx-envelope"></i>info@gmail.com</span>
+                        <span><i class="bx bx-phone"></i>+012 345 67890</span>
+
+                        <div class="social">
+                            <div class="box">
+                                <i class="bx bxl-twitter"></i>
+                            </div>
+                            <div class="box">
+                                <i class="bx bxl-facebook"></i>
+                            </div>
+                            <div class="box">
+                                <i class="bx bxl-linkedin"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-1">
+                        <h5>quick links</h5>
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i>Home</a>
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i>About Us</a>
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i>Our Services</a>
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i>Meet The Team</a>
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i>Latest Blog</a>
+                        <a href="#"><i class='bx bx-right-arrow-alt'></i>Contact Us</a>
+                    </div>
+
+                    <div class="col-1">
+                        <h5>Newsletter</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="inputBox">
+                            <input type="text" placeholder="Your Email">
+                            <button>Sign Up</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <span>&copy; CAKEZONE All Right Reserved.</span>
+            </div>
+
+            <div class="top_button">
+                <a href="#"><i class='bx bx-chevrons-up' ></i></a>
+            </div>
+        </section>
+  
+
+        <!--- customer js file ---->
+        <script src="script.js"></script>
+
+</body>
+</html>
